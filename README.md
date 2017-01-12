@@ -11,7 +11,9 @@ https://github.com/postcss/postcss-custom-media/
 
 this will allow you to do:
 
-```css
+```pcss
+
+@import "css-variables/breakpoints/generic.pcss";
 
 @media (max-width: var(--sm)) {
 }

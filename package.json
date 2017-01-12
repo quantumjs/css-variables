@@ -1,6 +1,6 @@
 {
   "name": "css-variables",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Contains constants used by other css frameworks, eg bootstraps breakpoints.",
   "main": "index.js",
   "scripts": {
