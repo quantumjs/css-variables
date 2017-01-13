@@ -1,12 +1,7 @@
-/**
- This doesn't promise to conform to any framework but I like to use it in my own projects.
- I based it off of bootstrap 4, for the time being https://v4-alpha.getbootstrap.com/layout/grid/#grid-options
+/*
+based on https://github.com/cssrecipes/custom-media-queries/blob/master/index.css
  */
-
-:root {
-  /*min values and upwards, xs is 0 -575px*/
-  --small: 576px;
-  --medium: 768px;
-  --large: 992px;
-  --xlarge: 1200px;
-}
+@custom-media --minSmall (min-width: 576px);
+@custom-media --minMedium (min-width: 768px);
+@custom-media --minLarge (min-width: 992px);
+@custom-media --minXLarge (min-width: 1200px);
