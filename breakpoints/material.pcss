@@ -1,10 +1,9 @@
 /*
   https://material.io/guidelines/layout/responsive-ui.html#
  */
-:root {
-  --small: 600px;
-  --medium: 960px;
-  --large: 1280px;
-  --xlarge: 1920px;
-}
+
+@custom-media --small (min-width: 600px);
+@custom-media --medium (min-width: 960px);
+@custom-media --large (min-width: 1280px);
+@custom-media --xlarge (min-width: 1920px);
 
