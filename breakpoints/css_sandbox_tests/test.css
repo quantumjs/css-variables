@@ -1,0 +1,6 @@
+@import "../bootstrap3.css";
+@media (--xs) {
+  body {
+    background: aquamarine;
+  }
+}
